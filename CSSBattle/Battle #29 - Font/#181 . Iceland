@@ -1,0 +1,36 @@
+![](https://cssbattle.dev/targets/181.png)
+
+```HTML
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body{
+    position: relative;
+    background-color:#DE3832;
+  }
+  div {
+    position:absolute;
+    top:-113;
+    left:-113;
+    width: 200px;
+    height: 200px;
+    background: #33499F;
+    border: 15px solid #FFFFFF;
+  }
+  div:nth-of-type(2){
+    top:167;
+    left:-113;
+  }
+  div:nth-of-type(3){
+    top:167;
+    left:167;
+    width:220;
+  }
+  div:nth-last-of-type(4){
+    left:167;
+    width:220;
+  }
+</style>
+```
